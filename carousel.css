@@ -71,13 +71,26 @@
 }
 
 .container .content h1 {
-  font-family: "ICA Rubrik" sans-serif;
-  font-size: 4em;
+  font-family: "ICA Rubrik";
+  font-size: 2em;
   line-height: 1em;
   color: #eee;
   position: relative;
-  z-index: 2; /* Ensure h1 text is on top */
-  left: -5%;
+  z-index: 2;
+  text-shadow: 0 0 80px rgba(255, 215, 0, 0.5); /* Golden glow behind text */
+}
+
+/* Add a pseudo-element for additional glow effect */
+.container .content h1::before {
+  content: attr(data-content);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  color: rgba(255, 215, 0, 0.3); /* Golden color with transparency */
+  filter: blur(40px);
+  -webkit-filter: blur(40px);
+  text-shadow: 0 0 100px rgba(255, 215, 0, 0.8);
 }
 
 .container .content h1::after {
@@ -94,6 +107,21 @@
   font-family: Poppins;
   text-align: right;
   max-width: 200px;
+  color: #eee;
+}
+
+.glow-effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12rem;
+  height: 12rem;
+  background-color: rgb(254, 243, 199);
+  border-radius: 50%;
+  filter: blur(24px);
+  opacity: 0.5;
+  z-index: -1;
 }
 
 .container .content .model {
