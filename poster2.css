@@ -85,7 +85,7 @@ nav {
   width: 106px;
   height: 145px;
   background-color: #cd9d2b;
-  background-image: url(volume1/volume1-logo.jpg);
+  background-image: url(posters/logo2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,7 +138,7 @@ nav {
 .obelisk {
   width: 63px; /* Set the base width */
   height: 570px; /* Set the height of the main rectangle */
-  background-image: url(volume1/side.jpg); /* Background color */
+  background-image: url(volume2/side.jpg); /* Background color */
   clip-path: polygon(
     50% 0%,
     100% 10%,
@@ -154,7 +154,7 @@ nav {
 .obelisk2 {
   width: 63px; /* Set the base width */
   height: 570px; /* Set the height of the main rectangle */
-  background-image: url(volume1/side.jpg); /* Background color */
+  background-image: url(volume2/side.jpg); /* Background color */
   clip-path: polygon(
     50% 0%,
     100% 10%,
