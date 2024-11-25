@@ -140,10 +140,10 @@ nav {
   text-align: center;
 }
 
-.obelisk {
-  width: 63px; /* Set the base width */
-  height: 570px; /* Set the height of the main rectangle */
-  background-image: url(volume1/side.jpg); /* Background color */
+/* .obelisk {
+  width: 63px; 
+  height: 570px; 
+  background-image: url(volume1/side.jpg);
   clip-path: polygon(
     50% 0%,
     100% 10%,
@@ -151,15 +151,15 @@ nav {
     50% 100%,
     0% 90%,
     0% 10%
-  ); /* Create pointed top and tapered edges */
+  ); 
   position: absolute;
   top: 265px;
   left: 100px;
 }
 .obelisk2 {
-  width: 63px; /* Set the base width */
-  height: 570px; /* Set the height of the main rectangle */
-  background-image: url(volume1/side.jpg); /* Background color */
+  width: 63px; 
+  height: 570px; 
+  background-image: url(volume1/side.jpg); 
   clip-path: polygon(
     50% 0%,
     100% 10%,
@@ -167,11 +167,11 @@ nav {
     50% 100%,
     0% 90%,
     0% 10%
-  ); /* Create pointed top and tapered edges */
+  ); 
   position: absolute;
   top: 60px;
   left: 840px;
-}
+} */
 
 .text-container {
   width: 543px;
