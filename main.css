@@ -32,7 +32,7 @@
   left: calc(50% - 100px);
   transform-style: preserve-3d;
   transform: perspective(1000px);
-  animation: autoRun 20s linear infinite;
+  animation: autoRun 30s linear infinite;
   z-index: 4; /* Set z-index for carousel */
 }
 
@@ -54,6 +54,11 @@
     translateZ(550px);
   animation: fadeInItem 1s ease-out forwards; /* Fade-in for each carousel item */
   opacity: 0; /* Initial state for fade-in */
+  filter: saturate(0);
+}
+.container .carousel .item:hover {
+  filter: saturate(1);
+  transition: 0.5s ease-in;
 }
 
 @keyframes fadeInItem {
