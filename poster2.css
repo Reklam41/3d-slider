@@ -221,6 +221,13 @@ nav {
   .text p {
     font-size: 1.2rem;
     color: #cd9d2b;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Copperplate", sans-serif;
+    text-align: justify;
+    position: relative;
+    /* top: 50px; */
+    hyphens: none;
   }
 }
 
