@@ -1,7 +1,7 @@
 :root {
-  font-family: "Copperplate", sans-serif;
-  line-height: 1.5;
+  font-family: "hightower-text", serif;
   font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -239,11 +239,11 @@ nav {
   padding-left: 50px;
 
   .text p {
-    font-size: 1.2rem;
     color: #cd9d2b;
-    line-height: 1.5;
+    font-family: "hightower-text", serif;
     font-weight: 400;
-    font-family: "Copperplate", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
     text-align: justify;
     position: relative;
     top: 50px;
