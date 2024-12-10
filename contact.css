@@ -1,7 +1,7 @@
 :root {
-  font-family: "Copperplate", sans-serif;
-  line-height: 1.5;
+  font-family: "hightower-text", serif;
   font-weight: 400;
+  font-style: normal;
 }
 
 body {
@@ -178,7 +178,9 @@ nav {
 }
 
 .content .bio p {
-  font-family: "Copperplate", sans-serif;
+  font-family: "hightower-text", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.2rem;
   color: #cd9d2b;
   text-align: center;
